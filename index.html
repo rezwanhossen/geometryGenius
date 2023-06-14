@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genius</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f4771bb81a.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+<body>
+    <header>
+        <!-- this is header section -->
+        <div class="header-text ">
+            <div>
+                <h1>Interactive</h1>
+                <h3>Geometry Genius</h3>
+            </div>
+            <div>
+                <button class="header-button">Blog</button>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <!-- this is main section -->
+        <section id="allDiv" class="main-section-one">
+            <div class="elemintDiv">
+                <!-- is stsrt Triangle  -->
+                <div id="mouseenter1" class="elemintsOfSubdiv">
+                    <div id="triangle" class="sunsiv-elemint">
+                        <img src="images/triangle.png" alt="" srcset="">
+                        <h4>Triangle</h4>
+                        <p>Area (A) = 0.5 * b * h</p>
+                        <p id="example-value-one">b= <span id="innerValue1">4</span> cm , h=<span
+                                id="innerValue2">5</span> cm <i id="edit-one" class="fa-solid fa-pen-to-square"
+                                style="color: #4c576b;"></i></p>
+                        <p id="input-value-one"><input id="input-one" type="text" placeholder="b">cm
+                            <input id="input-two" type="text" placeholder="h">cm
+                            <input id="checkbox1" type="checkbox">
+                        </p>
+                        <button id="Calculate1" class="element-button">Calculate</button>
+                    </div>
+                </div>
+                <!-- is stsrt Rectangle  -->
+                <div id="mouseenter2" class="elemintsOfSubdiv">
+                    <div class="sunsiv-elemint">
+                        <img src="images/rectangle.png" alt="">
+                        <h4>Rectangle</h4>
+                        <p> Area (A) = w * l </p>
+                        <p id="example-value-two">b=<span id="innerValue3">4</span> cm , h=<span
+                                id="innerValue4">5</span> cm <i id="edit-two" class="fa-solid fa-pen-to-square"
+                                style="color: #4c576b;"></i></p>
+                        <p id="input-value-two"><input id="input-3" type="text" placeholder="l">cm
+                            <input id="input-4" type="text" placeholder="w">cm
+                            <input id="checkbox2" type="checkbox">
+                        </p>
+                        <button id="Calculate2" class="element-button">Calculate</button>
+                    </div>
+
+                </div>
+                <!-- is stsrt Parallelogram  -->
+
+                <div id="mouseenter3" class="elemintsOfSubdiv">
+                    <div class="sunsiv-elemint">
+                        <img src="images/parallelogram.png" alt="">
+                        <h4>Parallelogram</h4>
+                        <p>Area (A) = b * h</p>
+                        <p id="example-value-three">b=<span id="innerValue5">4</span> cm , h=<span
+                                id="innerValue6">5</span> cm <i id="edit-three" class="fa-solid fa-pen-to-square"
+                                style="color: #4c576b;"></i></p>
+                        <p id="input-value-three"><input id="input-5" type="text" placeholder="b">cm
+                            <input id="input-6" type="text" placeholder="h">cm
+                            <input id="checkbox3" type="checkbox">
+                        </p>
+                        <button id="Calculate3" class="element-button">Calculate</button>
+                    </div>
+
+                </div>
+                <!-- is stsrt Rhombus  -->
+                <div id="mouseenter4" class="elemintsOfSubdiv">
+                    <div class="sunsiv-elemint">
+                        <img src="images/rhombus.png" alt="">
+                        <h4>Rhombus</h4>
+                        <p>Area (A) = 0.5 *d<sub>1</sub> *d<sub>2</sub> </p>
+                        <p id="example-value-four">b=<span id="innerValue7">4</span> cm , h=<span id="innerValue8">
+                                5</span> cm <i id="edit-four" class="fa-solid fa-pen-to-square"
+                                style="color: #4c576b;"></i></p>
+                        <p id="input-value-four">
+                            <input id="input-7" type="text" placeholder="d1">cm
+                            <input id="input-8" type="text" placeholder="d2">cm
+                            <input id="checkbox4" type="checkbox">
+                        </p>
+                        <button id="Calculate4" class="element-button">Calculate</button>
+                    </div>
+
+                </div>
+                <div id="mouseenter5" class="elemintsOfSubdiv">
+                    <div class="sunsiv-elemint">
+                        <img src="images/pentagon.png" alt="">
+                        <h4>Pentagon</h4>
+                        <p>Area (A) = 0.5 * p * b </p>
+                        <p id="example-value-five">b=<span id="innerValue9">4</span> cm , h=<span
+                                id="innerValue10">5</span> cm <i id="edit-five" class="fa-solid fa-pen-to-square"
+                                style="color: #4c576b;"></i></p>
+                        <p id="input-value-five">
+                            <input id="input-9" type="text" placeholder="p">cm
+                            <input id="input-10" type="text" placeholder="b">cm
+                            <input id="checkbox5" type="checkbox">
+                        </p>
+                        <button id="Calculate5" class="element-button">Calculate</button>
+                    </div>
+
+                </div>
+                <div id="mouseenter6" class="elemintsOfSubdiv">
+                    <div class="sunsiv-elemint">
+                        <img src="images/ellipse.png" alt="">
+                        <h4>Ellipse</h4>
+                        <p>Area (A) = pai * a * b</p>
+                        <p id="example-value-six">b=<span id="innerValue11">4</span> cm , h=<span
+                                id="innerValue12">5</span> cm <i id="edit-six" class="fa-solid fa-pen-to-square"
+                                style="color: #4c576b;"></i></p>
+                        <p id="input-value-six">
+                            <input id="input-11" type="text" placeholder="a"> cm
+                            <input id="input-12" type="text" placeholder="b"> cm
+                            <input id="checkbox6" type="checkbox">
+                        </p>
+                        <button id="Calculate6" class="element-button">Calculate</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div>
+                <!-- that is output section -->
+                <div id="mouseenter7" class="elemintsOfSubdiv">
+                    <div class="header-subdiv">
+                        <p>Area Calculation</p>
+                        <hr>
+                    </div>
+
+                    <div>
+                        <P id="tru">Truangll <span id="truValue">00</span> cm <sup>2</sup> <button>Covert to m
+                                <sup>2</sup></button></P>
+                        <P id="rect">Rectangle <span id="rect-value">00</span> cm <sup>2</sup> <button>Covert to m
+                                <sup>2</sup></button>
+                        </P>
+                        <P id="parall">Parallelogram <span id="parall-value">00</span> cm <sup>2</sup> <button>Covert to
+                                m
+                                <sup>2</sup></button></P>
+                        <P id="rhom">Rhombus <span id="rhom-value">00</span> cm <sup>2</sup> <button>Covert to m
+                                <sup>2</sup></button>
+                        </P>
+                        <P id="penta">Pentagon <span id="pent-value">00</span> cm <sup>2</sup> <button>Covert to m
+                                <sup>2</sup></button>
+                        </P>
+                        <P id="elli">Ellipse <span id="elli-valur">00</span> cm <sup>2</sup> <button>Covert to m
+                                <sup>2</sup></button>
+                        </P>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="commonFunction.js"></script>
+    <script src="main.js"></script>
+    <script src="calcculet.js"></script>
+
+</body>
+
+</html>

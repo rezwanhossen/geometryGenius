@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+    max-width: 96%;
+    margin: auto;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+h1 {
+    margin: 0px;
+    color: rgba(17, 17, 17, 0.8);
+    font-weight: 700;
+    font-size: 45px;
+
+}
+
+h3 {
+    margin: 0px;
+    color: rgba(17, 17, 17, 0.6);
+    font-weight: 500;
+    font-size: 30px;
+}
+
+header {
+    margin-top: 20px;
+}
+
+hr {
+    width: 200px;
+    margin: auto;
+}
+
+.header-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    background: rgba(16, 144, 216, 0.1);
+    border-radius: 8px;
+    height: 130px;
+
+}
+
+.header-button {
+    margin-left: 70%;
+    width: 120px;
+    height: 48px;
+    background: #1090D8;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.header-button a {
+    text-decoration: none;
+}
+
+.main-section-one {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 24px;
+    margin: 20px;
+}
+
+.elemintDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    text-align: center;
+
+}
+
+.elemintsOfSubdiv {
+    width: 437px;
+    height: 363px;
+    background: #FFFFFF;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 8px;
+    width: 100%;
+
+
+}
+
+.sunsiv-elemint {
+    margin: 20px 30px;
+}
+
+.sunsiv-elemint h4 {
+    margin: 5px;
+    font-size: 25px;
+}
+
+.sunsiv-elemint p {
+    color: #414141;
+    margin: 5px;
+
+}
+
+.elemintsOfSubdiv img {
+    width: 143px;
+    height: 94px;
+
+}
+
+.header-subdiv p {
+    text-align: center;
+}
+
+/* .elemintsOfSubdiv p {
+    text-align: center;
+} */
+
+input {
+    width: 40px;
+    border: none;
+    height: 20px;
+    background-color: rgba(58, 74, 168, 0.137);
+    border-radius: 5px;
+}
+
+.sunsiv-elemint .element-button {
+    margin-top: 40px;
+    width: 200px;
+    height: 46px;
+    background: #1090D8;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.element-button:hover {
+    background: #012c44;
+
+}
+
+button {
+    background-color: rgb(59, 10, 43);
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width:576px) {
+    .header-text {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 300px;
+    }
+
+    .header-button {
+        margin-left: 0%;
+    }
+
+    .main-section-one {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .elemintDiv {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+
+    }
+
+}
