@@ -1,4 +1,6 @@
-
+function headerbutton() {
+    window.open('blog.html');
+}
 click('mouseenter1')
 click('mouseenter2')
 click('mouseenter3')
