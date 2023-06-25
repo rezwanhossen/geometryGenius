@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What is DOM and what is the purpas of Dom?
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">DOM is Document Object Model. <br>
+                    Document are vedio file,text file,audio file all are doucment. But DOM is when we right a html
+                    code.The html structure we mean by tree. Document -> html -> header -> title -> text and oposit side
+                    body-> a tag -> li -> etc we mean a hiearentical tree structure.But it does not known as JS
+                    programming.
+                    Object: Object is javascript consept.that cunnect html and javascript.tree structuer ia model.The
+                    three concept are called DOM.
+                    last of all<b>with the object model javascript gets all the power it need to create dynamic
+                        html.</b>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    How to select elemint from DOM?
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">We mean p is javascript object.We can extract id,classname ,tag name for our
+                    web page.
+                    so, you have to find the elements first. There are several ways to do this
+                    <ul>
+                        <li>Finding HTML elements by id</li>
+                        <p><b>Example:</b>document.getElementById("intro");</p>
+                        <li>Finding HTML elements by tag name</li>
+                        <p><b>Example:</b> document.getElementsByTagName("p");</p>
+                        <li>Finding HTML elements by class name</li>
+                        <p><b>Example:</b> document.querySelectorAll("p.intro");</p>
+                        <li>Finding HTML elements by CSS selectors</li>
+                        <p><b>Example:</b> document.querySelectorAll("p.intro");
+                        </p>
+                        <li>Finding HTML elements by HTML object collections</li>
+                        <p><b>Example:</b>const x = document.forms["frm1"];
+                            let text = "";
+                            for (let i = 0; i < x.length; i++) { text +=x.elements[i].value + "<br>" ; }
+                                document.getElementById("demo").innerHTML=text;</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    what is event bubble?
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <img src="data:image/png;base64,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"
+                        alt="">
+                    <p> Event Bubbling is a concept in the DOM (Document Object Model). It happens when an element
+                        receives an event, and that event bubbles up (or you can say is transmitted or propagated) to
+                        its parent and ancestor elements in the DOM tree until it gets to the root element. <i>copy in
+                            google</i></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
